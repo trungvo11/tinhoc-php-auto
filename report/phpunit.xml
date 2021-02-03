@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="StaffTest" file="/var/www/html/tinhoc-php-auto/tests/StaffTest.php" tests="3" assertions="3" errors="0" failures="1" skipped="0" time="0.003007">
-    <testcase name="testReturnsFullName" class="StaffTest" classname="StaffTest" file="/var/www/html/tinhoc-php-auto/tests/StaffTest.php" line="7" assertions="1" time="0.002084"/>
-    <testcase name="testFullNameIsEmptyByDefault" class="StaffTest" classname="StaffTest" file="/var/www/html/tinhoc-php-auto/tests/StaffTest.php" line="18" assertions="1" time="0.000145"/>
-    <testcase name="only_first_name" class="StaffTest" classname="StaffTest" file="/var/www/html/tinhoc-php-auto/tests/StaffTest.php" line="27" assertions="1" time="0.000778">
+  <testsuite name="StaffTest" file="/var/www/html/tinhoc-php-auto/tests/StaffTest.php" tests="3" assertions="3" errors="0" failures="1" skipped="0" time="0.002956">
+    <testcase name="testReturnsFullName" class="StaffTest" classname="StaffTest" file="/var/www/html/tinhoc-php-auto/tests/StaffTest.php" line="7" assertions="1" time="0.002040"/>
+    <testcase name="testFullNameIsEmptyByDefault" class="StaffTest" classname="StaffTest" file="/var/www/html/tinhoc-php-auto/tests/StaffTest.php" line="18" assertions="1" time="0.000144"/>
+    <testcase name="only_first_name" class="StaffTest" classname="StaffTest" file="/var/www/html/tinhoc-php-auto/tests/StaffTest.php" line="27" assertions="1" time="0.000772">
       <failure type="PHPUnit\Framework\ExpectationFailedException">StaffTest::only_first_name
 Failed asserting that two strings are equal.
 --- Expected
 +++ Actual
 @@ @@
 -'Doanh'
-+'nguyen'
++'Nguyen'
 
 /var/www/html/tinhoc-php-auto/tests/StaffTest.php:31
 </failure>
